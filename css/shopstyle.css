@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* 코스알엑스 서브 */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+html,body { height: 100%; }
+body {
+  min-width: 1320px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #000;
+ }
+a { color : #000; }
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6 { line-height: 1; }
+
+
+#header-wrap {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  z-index: 300;
+  box-shadow: 0 2px 2px -1px rgb(0 0 0 / 20%);
+}
+
+#header {
+  width: 1320px;
+  margin: 0 auto;
+  padding: 25px 20px 15px;
+  box-sizing: border-box;
+  overflow:hidden;
+  z-index:300;
+}
+
+#logo { float: left; }
+#header .inner { float: right; }
+#header .inner #gnb {
+  float: left;
+  margin-right: 30px;
+}
+#header .inner > ul { overflow: hidden;}
+#header .inner > ul > li { float: left; }
+#header .inner > ul > li > a {
+  line-height: 25px;
+  color: #000; }
+#gnb li,#login-menu li {
+  margin-right: 30px;
+  font-weight: 700;
+}
+#header .inner > ul > li:nth-child(1) > a { color: #9d85a6;}
+#header .inner > ul > li:nth-child(2) > a { color: #cf830e;}
